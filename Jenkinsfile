@@ -38,5 +38,12 @@ pipeline
                 echo "This is Stage Five"
             }
         }
+        stage("Success")
+        {
+            steps
+            {
+                echo "Successful"
+            }
+        }
     }
 }
